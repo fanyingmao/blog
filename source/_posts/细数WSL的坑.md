@@ -17,7 +17,10 @@ tags: WSL windows linux
 * ssh和rsync的远程连接异常慢。
 * 由于是远程连接开发，这种连接有时会出现无法连上的情况，需要重启vscode。
 * linux子系统好像与window共享系统时间，linux下 date命令，ntp命令都无法修改系统时间，window修改系统时间linux系统也会变为对应时间。
-* 毕竟是linux子系统的文件路径，在svn和日志中有一些文件路径会出现无法找到的情况。
+* 毕竟是linux子系统的文件路径，在svn和日志中有一些文件路径会出现无法找到的情况,路径无法跳转，或svn日志无法查看，报错信息:
+```
+Not available from this working copy: file:///home/fanyingmao/svn/trunk/src/com/25qp/socket/handler/roomGuid/RoomGuideDealHandler.ts
+```
 * linux子系统中windows硬盘会被挂载在mnt目录下，反过来linux的文件会放在windows的 " C:\Users\<用户名>\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc\LocalState\rootfs " 路径中，但直接对路径中的文件修改linux不会立即同步修改,最后还是重启电脑。还有windows下创建的文件会有权限问题无法直接读写，需要改权限。
 * 用autossh做内网穿透，有进程还在但穿透连接断开的情况，之前用虚拟机却没出现。
 
