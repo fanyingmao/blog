@@ -23,6 +23,7 @@ Not available from this working copy: file:///home/fanyingmao/svn/trunk/src/com/
 ```
 1. linux子系统中windows硬盘会被挂载在mnt目录下，反过来linux的文件会放在windows的 " C:\Users\<用户名>\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc\LocalState\rootfs " 路径中，但直接对路径中的文件修改linux不会立即同步修改,最后还是重启电脑。还有windows下创建的文件会有权限问题无法直接读写，需要改权限。
 1. 用autossh做内网穿透，有进程还在但穿透连接断开的情况，之前用虚拟机却没出现。
+1. 还发现一些命令工具无法使用如：docker，lsof，nmap。
 
 # 总结
 
