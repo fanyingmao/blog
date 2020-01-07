@@ -17,7 +17,11 @@ node --inspect=47.52.92.163:8025 testDebug.js
 Starting inspector on 47.52.92.163:8025 failed: address not available
 ```
 
-测试发现虽然一般都用服务器的公网ip，但这里调试需要用云服务器的<strong>内网ip（私有ip）</strong>——linux下ifconfig命令显示的ip即内网ip，才可以成功运行的.修改后可以成功调试
+测试发现虽然一般都用服务器的公网ip，但这里调试需要用云服务器的<strong>内网ip（私有ip）</strong>——linux下ifconfig命令显示的ip即内网ip，才可以成功运行的.修改后可以成功调试,用0.0.0.0这个ip就可以了。
+
+```sh
+node --inspect=0.0.0.0:8025 testDebug.js
+```
 
 测试代码：
 ```js
