@@ -1,7 +1,9 @@
 ---
 title: pomelo分布式部署注意
 date: 2018-02-26 10:50:36
-tags: pomelo 分布式
+tags: 
+- pomelo 
+- 分布式
 ---
 官方wiki上式部署的说明：
 [Pomelo的分布式部署方法](https://github.com/cynron/pomelo/wiki/Pomelo%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E9%83%A8%E7%BD%B2%E6%96%B9%E6%B3%95)

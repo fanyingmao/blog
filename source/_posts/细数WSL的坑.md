@@ -1,7 +1,10 @@
 ---
 title: 细数linux子系统WSL的坑
 date: 2019-12-11 10:17:17
-tags: WSL windows linux
+tags: 
+- WSL 
+- windows 
+- linux
 ---
 # 背景
 

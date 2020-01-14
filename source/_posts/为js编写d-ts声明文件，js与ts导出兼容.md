@@ -2,6 +2,7 @@
 title: 为js编写d.ts声明文件，js与ts导出兼容
 date: 2019-06-03 11:53:39
 tags: 
+-ts
 ---
 
 [ym-mongodb-sql](https://github.com/fanyingmao/ym-mongodb-sql)添加ts支持时发现：

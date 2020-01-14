@@ -1,7 +1,9 @@
 ---
 title: mongodb传参数生成sql语句实现
 date: 2018-4-19 11:01:22
-tags:  mongodb  sql
+tags:  
+- mongodb
+- sql
 ---
 ## 背景
 项目由node+mongodb开发改为，java+mysql，为了方便迁移，想将mongodb传参数生成mysql对应的sql语句。
