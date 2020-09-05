@@ -1,7 +1,7 @@
 ---
 title: 关于severless的疑问和痛点
 date: 2020-09-05 14:25:08
-tags: severless aws
+tags: severless aws lambada
 ---
 
 1 、一个接口调用 severless 运行需要将所有函数接口代码加载到内存，运行玩之后就释放，还有对于数据库之类的连接就不是用连接池的方式要不断创建断开，这样运行效率不会比较低吗？
