@@ -1,7 +1,9 @@
 ---
 title: 如何在typescript引用 .json 文件
 date: 2018-11-15 12:07:29
-tags: typescript json
+tags: 
+- typescript 
+- json
 ---
 如果查找typescript引用 .json 文件大部分给出的答案是：
 

@@ -1,7 +1,9 @@
 ---
 title: 'node 远程调试 failed: address not available 错误处理'
 date: 2018-06-06 11:31:32
-tags: node 调试
+tags: 
+- node 
+- 调试
 ---
 
 项目远程调试是十分必要的，可以对部署在外网的环境中断点查找问题,而不用在本机上测试问题，

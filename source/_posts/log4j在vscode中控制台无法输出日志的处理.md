@@ -1,7 +1,9 @@
 ---
 title: log4j在vscode中控制台无法输出日志的处理
 date: 2019-12-11 16:59:10
-tags: log4j vscode
+tags: 
+- 日志 
+- vscode
 ---
 # 问题
 
