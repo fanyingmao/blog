@@ -60,4 +60,4 @@ export class HotReload {
 }
 ```
 
-这里顺便说下为什么用 watchFile 而不是 watch 方法，因为时间测试中修改文件一次出现 watch 方法回调了 3 次，虽然 3 次没什么影响，但是有节约强迫症改为了 watchFile，watchFile 有个小问题就是有点延迟，但是可以接受。
+这里顺便说下为什么用 watchFile 而不是 watch 方法，因为时间测试中修改文件一次出现 watch 方法回调了 3 次，虽然 3 次没什么影响，但是有节约强迫症改为了 watchFile，watchFile 有个小问题估计是轮询机制导致的就是有点延迟，但是可以接受。
